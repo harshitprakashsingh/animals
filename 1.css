@@ -1,0 +1,37 @@
+body
+{
+	background-color: white;
+	margin: 0;
+}
+h1
+{   margin-top: 5px;
+	font-family: fantasy;
+	font-size: 2em;
+    border-bottom: 1px solid pink;
+    border-right: 1px solid pink;
+    width:180px;
+    text-align: center;
+    text-shadow: 5px 5px 10px red;
+    box-shadow: .5px .5px red;
+    margin-top:5px;
+    
+}
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+img
+{
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover
+{
+  transform: scale(1.5);
+}
+
